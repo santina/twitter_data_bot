@@ -1,0 +1,7 @@
+**/private.py
+tweets.log
+
+# Jupyter notebook files
+__pycache__
+.ipynb_checkpoints/
+**/*.ipynb
