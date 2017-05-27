@@ -1,3 +1,9 @@
+
+#  Allow Azure Webjob to find tweepy and its dependencies
+import sys
+sitepackage = "D:\home\site\wwwroot\site-packages"
+sys.path.append(sitepackage)
+
 import tweepy as tp # Python wrapper for Twitter API
 from time import gmtime, strftime # For logging time.
 

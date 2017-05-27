@@ -1,5 +1,3 @@
-# This bot currently uses my account to post tweets
-
 import os
 from private import *
 from api_helper import api_service
@@ -8,7 +6,7 @@ from datetime import date, datetime, timedelta
 
 def main():
     # Logfile dir
-    path = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
+    path = "D:/home/site/wwwroot/App_Data/jobs/triggered/test-write/test_bot"
     logfile = os.path.join(path, "retweets.log")
 
     # Set up with Twitter authentification.
