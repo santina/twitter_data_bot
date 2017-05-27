@@ -1,5 +1,6 @@
 **/private.py
 tweets.log
+retweets.log
 
 # Jupyter notebook files
 __pycache__
